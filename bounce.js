@@ -12,7 +12,7 @@ window.onload = function(){
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.beginPath();
         ctx.rect(x, y, 10, 10);
-        ctx.fillStyle = "cyan";
+        ctx.fillStyle = "red";
         ctx.fill();
         ctx.closePath();
 
